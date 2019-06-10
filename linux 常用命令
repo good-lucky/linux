@@ -26,4 +26,5 @@ uname -a
 
 更改权限
 chmod -R /755 
+r 4   w  2   x   1
 

@@ -28,3 +28,26 @@ uname -a
 chmod -R /755 
 r=4   w=2   x=1
 
+
+目录操作
+mkdir  -p  创建目录
+
+mv  移动文件或者重命名 文件
+
+cp  文件复制
+
+useradd 添加用户 -e 调整用户的有效期限  -s /bin/bash 指定用户登陆运行的脚本文件
+
+chage -l 用户名 可以查看用户的过期时间  -E  修改账户的过期时间
+
+userdel -r  删除用户及家目录
+passwd 修改用户密码
+groupadd 新增用户组
+groupdel 删除用户组
+usermod 修改用户属性
+
+关机重启
+shutdown -h now 关机 -r now 重启
+
+查看端口号
+netstat -nlpt

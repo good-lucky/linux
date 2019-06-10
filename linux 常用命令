@@ -23,3 +23,7 @@ lsb_release -a
 
 查看linux 服务器内核
 uname -a
+
+更改权限
+chmod -R /755 
+
